@@ -1,0 +1,139 @@
+/* header */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+  }
+.header_logo-link {
+    font-family: 'Lato'; /* Либо "Lato" */
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+.header_nav-link {
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    margin-left: 51px;
+}
+.header_nav > ul > li:nth-child(1) {
+    margin-left: -51px;
+}
+
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+} 
+.header_wrapper {
+    max-width: 1078px;
+    margin: 0 auto;
+    display:flex ;
+    justify-content:space-between ;
+}
+.header {
+    margin-top: 34px;
+}
+.header_nav > ul {
+    display:flex ;
+}
+
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #294461;
+    margin-top:37px;
+}
+
+
+/* center */
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.first{ 
+
+}
+
+.first_wrapper {
+    display:flex ;
+    max-width: 1246px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.first_text {   
+    max-width: 519px;
+    margin-top: 209px;
+}
+.first_text > .first_subtitle {
+    max-width: 408px;
+}
+
+.first_title {
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.first_subtitle {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 408;
+    margin-top: 37px;
+}
+
+.first_link {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration:none ; 
+    color: black;   
+    margin-top: 82px;
+    display:block ;
+    max-width: 379px;
+
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 26px 0px 27px 54px;
+}
+
+.first_arrow {
+    margin-left:29px ;
+}
+
+.first_img {
+
+}
+
+.first_girl {
+
+}
+
